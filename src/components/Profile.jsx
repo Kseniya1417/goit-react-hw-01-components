@@ -2,8 +2,7 @@ export const Profile = ({ userName, tag, location, avatar, stats }) => {
   return (
     <div
       style={{
-        backgroundColor: 'rgb(192, 192, 192)',
-        height: '100vh',
+        padding: '20px',
         display: 'flex',
         justifyContent: 'center',
         alignItems: 'center',
